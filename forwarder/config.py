@@ -10,16 +10,16 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "617722711:AAHysCHsVcQja6LOlHa88101lKjrxez80-M"  # API key obtained from BotFather
-    OWNER_ID = "582884567"  # If you dont know, run the bot and do /id in your private chat with the bot
+    API_KEY = "1427827588:AAE9hCOIBp3l-2-pWNFf8nveQCzt-Nh3D7Y"  # API key obtained from BotFather
+    OWNER_ID = "1096429310"  # If you dont know, run the bot and do /id in your private chat with the bot
 
     # FOR AUTOMATICALLY FORWARDING MESSAGES
-    FROM_CHATS = [-1001234704297 ]  # List of chat id's to forward messages from
-    TO_CHATS = [-1001128355490]  # List of chat id's to forward messages to
+    FROM_CHATS = [-1001026023250,-1001437883191,-1001213581688,-1001171719496,-1001448677722]  # List of chat id's to forward messages from
+    TO_CHATS = [-1001253303874]  # List of chat id's to forward messages to
 
     # FOR WEBHOOKS
     WEBHOOK = False
-    IP_ADDRESS = "127.0.0.1"  # Use "0.0.0.0" if using Heroku
+    IP_ADDRESS = "0.0.0.0"  # Use "0.0.0.0" if using Heroku
     URL = None  # The URL that the bot should listen to for updates
     PORT = 5000  # Port to listen on for webhooks
     CERT_PATH = None  # Path to certificate file
